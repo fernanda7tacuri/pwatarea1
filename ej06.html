@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5 - Diseño de caja</title>
+    <style>
+         /* Estilo de la caja */
+        .caja {
+            width: 300px;
+            height: 200px;
+            background-color: #ffe4e1; /* rosa suave */
+            border: 2px solid #ff69b4; /* borde rosa fuerte */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+         /* Estilo del texto */
+        .caja p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja">
+        <p>Este es mi texto centrado</p>
+        <input type="range" min="0" max="100" value="50">
+    </div>
+</body>
+</html>

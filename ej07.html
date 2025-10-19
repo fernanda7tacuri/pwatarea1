@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 7 - Navegación</title>
+    <style>
+        /* Barra de navegación */
+        nav {
+            background-color: #ff69b4; /* rosa */
+            padding: 10px;
+        }
+
+        /* Lista horizontal */
+        nav ul {
+            list-style: none; /* quitar viñetas */
+            margin: 0;
+            padding: 0;
+            display: flex; /* horizontal */
+            gap: 15px;
+        }
+
+        /* Enlaces */
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Cambio de color al hacer clic */
+        nav a:active {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi barra de navegación</h1>
+
+    <nav>
+        <ul>
+            <!-- Enlaces internos -->
+            <li><a href="ej05.html">Estilos</a></li>
+            <li><a href="ej06.html">Diseño de caja</a></li>
+
+            <!-- Enlaces externos -->
+            <li><a href="https://www.facebook.com/fernandajudith77?locale=es_LA" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/ferscita666/" target="_blank">Instagram</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
