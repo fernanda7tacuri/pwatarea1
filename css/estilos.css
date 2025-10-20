@@ -1,0 +1,219 @@
+
+/* ==== TÍTULOS ==== */
+h1, h2, h3 {
+    color: #d81b60; /* rosado intenso */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ad1457; /* lila rosado */
+}
+
+h3 {
+    font-size: 20px;
+    color: #8e24aa; /* violeta suave */
+}
+/* ==== ESTILOS GENERALES ==== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ff69b4; /* rosa */
+    margin-bottom: 20px;
+}
+
+p {
+    color: #34495e;
+    font-size: 18px;
+}
+
+/* ==== LISTAS ==== */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* ==== ENLACES ==== */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ==== TABLAS ==== */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 70%;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ==== FORMULARIOS ==== */
+input, button {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #5c2f52;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c2f52
+    ;
+}
+
+/* ==== CAJA ==== */
+.caja {
+    width: 300px;
+    height: 200px;
+    background-color: #ffe4e1; /* rosa suave */
+    border: 2px solid #ff69b4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ==== GALERÍA ==== */
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pasatiempo {
+    width: 200px;
+    text-align: center;
+}
+
+.pasatiempo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.pasatiempo img:hover {
+    transform: scale(1.05);
+}
+
+/* ==== BARRA DE NAVEGACIÓN ==== */
+nav {
+    background-color: #5c2f52;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+}
+
+/* ==== RESPONSIVIDAD ==== */
+@media (max-width: 600px) {
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+/* ==== ESTILO ESPECIAL PARA EJERCICIO 5 ==== */
+body.ejercicio5 {
+    background: linear-gradient(135deg, #ffccf9, #ffe6f2);
+    color: #4a148c;
+}
+
+body.ejercicio5 h1, 
+body.ejercicio5 h2 {
+    color: #6a1b9a;
+}
+
+body.ejercicio5 p {
+    color: #311b92;
+    font-weight: 500;
+}
+/* ==== ESTILO SUAVE PARA EJERCICIO 9 ==== */
+body.ejercicio9 {
+    background: linear-gradient(135deg, #e0f7fa, #fff0f6);
+    color: #4a148c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body.ejercicio9 h1, 
+body.ejercicio9 h2 {
+    color: #6a1b9a;
+}
+
+body.ejercicio9 p {
+    color: #283593;
+    font-size: 18px;
+}
+
+/* ==== ESTILO SUAVE PARA EJERCICIO 10 ==== */
+body.ejercicio10 {
+    background: linear-gradient(135deg, #ede7f6, #fce4ec);
+    color: #311b92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body.ejercicio10 h1, 
+body.ejercicio10 h2 {
+    color: #5c2f52;
+}
+
+body.ejercicio10 p {
+    color: #4a148c;
+    font-size: 18px;
+}
